@@ -27,6 +27,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
+                onClicked: { console.log('Clicked:' + parent.objectName ) }
             }
 
             Image {
@@ -61,7 +62,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + 'click' ) }
+                onClicked: { console.log('Clicked:' + parent.objectName ) }
             }
         }
 
@@ -85,7 +86,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.toString()) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -109,7 +110,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -133,7 +134,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -157,7 +158,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -181,7 +182,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -205,7 +206,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
     }
@@ -237,7 +238,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -261,7 +262,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -285,7 +286,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -309,7 +310,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -333,7 +334,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -357,7 +358,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -381,7 +382,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -405,7 +406,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
     }
@@ -427,7 +428,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -441,7 +442,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -455,7 +456,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -469,7 +470,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -483,7 +484,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -497,7 +498,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -511,7 +512,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -525,7 +526,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
     }
@@ -547,7 +548,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -561,7 +562,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -575,7 +576,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -589,7 +590,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -603,7 +604,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -617,7 +618,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -631,7 +632,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -645,7 +646,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
     }
@@ -667,7 +668,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -681,7 +682,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -695,7 +696,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -709,7 +710,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -723,7 +724,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -737,7 +738,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -751,7 +752,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -765,7 +766,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
     }
@@ -787,7 +788,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -801,7 +802,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -815,7 +816,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -829,7 +830,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -843,7 +844,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -857,7 +858,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -871,7 +872,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -885,7 +886,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
     }
@@ -917,7 +918,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -941,7 +942,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -965,7 +966,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -989,7 +990,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1013,7 +1014,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1037,7 +1038,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1061,7 +1062,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1085,7 +1086,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
     }
@@ -1117,7 +1118,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1141,7 +1142,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1165,7 +1166,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1189,7 +1190,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1213,7 +1214,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1237,7 +1238,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1261,7 +1262,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
 
@@ -1285,7 +1286,7 @@ Rectangle {
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.log('Clicked:' + parent.id) }
+                onClicked: { console.log('Clicked:' + parent.objectName) }
             }
         }
     }
